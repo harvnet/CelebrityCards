@@ -1,0 +1,18 @@
+<main>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-6 col-lg-4">
+                <img src="img/{{person.image}}" alt="{{person.full_name}}" class="img-rounded" height="300" width="300">
+            </div>
+            <div class="col-xs-6 col-lg-8">
+                <h1>{{person.full_name}}</h1>
+                <p>{{person.bio}}</p>
+                <h4>Salary: {{person.salary | currency}}</h4>
+                <h4>Movies Last Year: {{person.movies_per_year}}</h4>
+                <p><a href="#/" class="btn btn-primary btn-lg backbutton">Back to List</a></p>
+            </div>
+        </div>
+    </div>
+
+
+</main>

@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+h1 {
+	text-align: center;
+	color: #F79417;
+	margin: 10px 0;
+	
+}
+
+.deck {
+	text-align: center;
+	padding: 20px;
+}

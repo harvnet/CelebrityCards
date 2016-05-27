@@ -1,0 +1,10 @@
+<main>
+              
+    <div class="row">
+        <div class="col-xs-6 col-lg-4 deck" ng-repeat="person in allData.persons">
+          <img src="img/{{person.image}}" alt="{{person.full_name}}" class="img-rounded" height="300" width="300">
+          <h2>{{person.full_name}}</h2>
+          <p><a class="btn btn-primary" href="#/details/{{person.id}}" role="button">View details &raquo;</a></p>
+        </div><!--/.col-xs-6.col-lg-4-->
+    </div><!--/row-->
+</main>
